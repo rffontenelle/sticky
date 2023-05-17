@@ -60,6 +60,8 @@
             ],
             "sources" : [
                 {
+                    "name" : "sticky",
+                    "buildsystem": "meson",
                     "type" : "dir",
                     "path" : "./",
                 }
