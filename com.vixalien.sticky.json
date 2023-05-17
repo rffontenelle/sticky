@@ -60,10 +60,9 @@
             ],
             "sources" : [
                 {
-                    "name" : "sticky",
-                    "buildsystem": "meson",
-                    "type" : "dir",
-                    "path" : "./",
+                    "type" : "git",
+                    "url" : "https://github.com/vixalien/sticky",
+                    "branch": "main"
                 }
             ]
         }
