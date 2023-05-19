@@ -4,7 +4,7 @@
             "owner": "appstream-validation",
             "pattern": [
                 {
-                    "regexp": "^(.*\\.xml):\\s+FAILED:$",
+                    "regexp": "^(.*\\.(appdata|metainfo)\\.(x|y)ml): FAILED:$",
                     "file": 1
                 },
                 {
